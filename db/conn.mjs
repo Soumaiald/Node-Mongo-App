@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 
-const connectionString = process.env.ATLAS_URI || "mongodb+srv://soumaia:soumald7991@cluster0.ewlek6x.mongodb.net/";
+const connectionString = process.env.ATLAS_URI || "";
 
 const client = new MongoClient(connectionString);
 
